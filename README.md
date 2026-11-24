@@ -6,6 +6,7 @@ Includes some personal preferences:
 
 - Removed "Auto" proxy group.
 - Rename "JMS" -> "Just My Socks"
+- Add "APNs" proxy group
 
 ---
 

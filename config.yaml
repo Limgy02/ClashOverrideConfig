@@ -5,6 +5,14 @@ proxy-groups: #!replace
     type: select
     include-all: true
 
+  - name: "APNs"
+    type: fallback
+    include-all: true
+    url: "https://www.gstatic.com/generate_204"
+    interval: 30
+    timeout: 3000
+    lazy: false
+
 rule-providers:
   reject:
     type: http
